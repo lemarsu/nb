@@ -9011,6 +9011,8 @@ Shortcut Alias:
     <a href="#nb_pinned_pattern"><code>$NB_PINNED_PATTERN</code></a>&nbsp;·
     <a href="#nb_server_host"><code>$NB_SERVER_HOST</code></a>&nbsp;·
     <a href="#nb_server_port"><code>$NB_SERVER_PORT</code></a>&nbsp;·
+    <a href="#nb_server_bind_host"><code>$NB_SERVER_BIND_HOST</code></a>&nbsp;·
+    <a href="#nb_server_bind_port"><code>$NB_SERVER_BIND_PORT</code></a>&nbsp;·
     <a href="#nb_syntax_theme"><code>$NB_SYNTAX_THEME</code></a>&nbsp;·
     <a href="#nb_user_agent"><code>$NB_USER_AGENT</code></a>&nbsp;·
     <a href="#nbrc_path"><code>$NBRC_PATH</code></a>
@@ -9560,6 +9562,30 @@ Default: 'localhost'
 
 ```text
 Default: '6789'
+```
+
+<p>
+  <sup>
+    <a href="#-variables">↑</a>
+  </sup>
+</p>
+
+##### `$NB_SERVER_BIND_HOST`
+
+```text
+Default: $NB_SERVER_HOST
+```
+
+<p>
+  <sup>
+    <a href="#-variables">↑</a>
+  </sup>
+</p>
+
+##### `$NB_SERVER_BIND_PORT`
+
+```text
+Default: $NB_SERVER_PORT
 ```
 
 <p>
